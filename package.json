@@ -1,11 +1,15 @@
 {
-  "name": "svelte-table",
+  "name": "efebia-libs",
   "version": "0.3.1",
   "license": "MIT",
-  "repository": "dasDaniel/svelte-table",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewSalemi/svelte-table.git"
+  },
   "module": "dist/es/SvelteTable.mjs",
   "main": "dist/umd/SvelteTable.js",
   "svelte": "src/index.js",
+
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
